@@ -33,7 +33,7 @@ const AppMenuButton = GObject.registerClass({
         const iconEffect = new Clutter.DesaturateEffect();
         this._iconBox = new St.Bin({
             y_align: Clutter.ActorAlign.CENTER,
-            style: 'margin-right: 4px; -st-icon-style: symbolic;',
+            style: 'margin-right: 8px; -st-icon-style: symbolic;',
         });
         this._iconBox.add_effect(iconEffect);
         this._container.add_child(this._iconBox);
